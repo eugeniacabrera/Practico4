@@ -13,14 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practico3", "Practico3\Practico3.csproj", "{B55AC83D-2B9C-4B2C-AD02-EE59FE4185CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{3158C152-D2E0-49CE-A227-0E4E409F9970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{3158C152-D2E0-49CE-A227-0E4E409F9970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{DB2CE497-6235-4AA8-A14E-FDB3F2C06117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{DB2CE497-6235-4AA8-A14E-FDB3F2C06117}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C62E586A-7571-4043-950F-34718166C420}"
 	ProjectSection(SolutionItems) = preProject
 		Scripts.sql = Scripts.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{BB876DC1-11A9-43CE-AA3F-3BB72102DC6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{DB2CE497-6235-4AA8-A14E-FDB3F2C06117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2CE497-6235-4AA8-A14E-FDB3F2C06117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2CE497-6235-4AA8-A14E-FDB3F2C06117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB876DC1-11A9-43CE-AA3F-3BB72102DC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB876DC1-11A9-43CE-AA3F-3BB72102DC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB876DC1-11A9-43CE-AA3F-3BB72102DC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB876DC1-11A9-43CE-AA3F-3BB72102DC6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
